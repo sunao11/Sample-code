@@ -1,9 +1,11 @@
+#環境設定
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 
-input_path = '20200808.pdf'
+#（　）内にPDFファイルの名前を入れる
+input_path = '（　　）.pdf'
 output_path = 'result.txt'
 
 manager = PDFResourceManager()
